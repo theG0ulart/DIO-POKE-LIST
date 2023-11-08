@@ -20,27 +20,23 @@
         <main>
 
             <ol id="pokemonList" class="pokemons">
-                <li class="pokemon">
-                    <span class="id">#001</span>
-                    <span class="name">Bulbasaur</span>
 
-                    <div class="details">
-                        <ol class="types">
-                            <li class="type"></li>
-                            <li class="type"></li>
-                        </ol>
+                <!-- POKEMONS HERE-->
 
-                        <img src="">
-                    </div>
-                </li>
             </ol>
-           
 
+           <div class="pagination">
+                <button type="button" id="loadMore" onclick="loadMore">
+                    More pokemons...
+
+                </button>
+            </div>
         </main>
 
     </div>
 
-    
+    <!-- JAVASCRIPT DO PROJETO -->
+    <script src="js/pokemon-model.js"></script>
     <script src="js/poke-api.js"></script>
     <script src="js/main.js"></script>
 </body>
